@@ -24,6 +24,7 @@ root = PositionNode.PosNode(board, None, color, 0)
 level = 0
 temp = None
 
+
 def checkmate(curBoard, turn):
     if turn == 'white' and ChessPieces.getMoves(curBoard, 'KW', whiteKingPos) is []:
         return True
